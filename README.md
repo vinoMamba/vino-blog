@@ -2,4 +2,4 @@
 
 ## 进度
 
-* 20210202：更新JavaScript基础内容之JS语法
+* 20210202：更新[JavaScript系列-JavaScript语法](./articles/JavaScript/JavaScript系列-JavaScript语法.md)
