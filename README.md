@@ -19,3 +19,5 @@
 
 [8、JavaScript系列-call、apply、bind](./articles/JavaScript/JavaScript系列-Jcall、apply、bind这次真的弄懂了.md)
 
+[9、JavaScript系列-总结](./articles/JavaScript/JavaScript系列-JavaScript归纳成三个定理.md)
+
