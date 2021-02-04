@@ -1,5 +1,12 @@
 # vino-blog
 
+## 近期计划
+
+计划更新
+
+JavaScript系列-JavaScript的几种数据类型
+JavaScript系列-JavaScript对象的底层数据结构
+
 ## 目录
 
 #### JavaScript系列
@@ -19,5 +26,4 @@
 
 [8、JavaScript系列-call、apply、bind](./articles/JavaScript/JavaScript系列-Jcall、apply、bind这次真的弄懂了.md)
 
-[9、JavaScript系列-总结](./articles/JavaScript/JavaScript系列-JavaScript归纳成三个定理.md)
-
+[9、JavaScript系列-总结](./articles/JavaScript/JavaScript系列-JavaScript归纳成三个定理.md) 
