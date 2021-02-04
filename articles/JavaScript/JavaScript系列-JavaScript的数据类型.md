@@ -105,12 +105,34 @@ console.log(str2 === str1) // true
 ```javascript
 const obj1 = {name: 'vino', age: 24}
 const obj2 = {name: 'vino', age: 24}
-console.log(obj1 === obj2 ) // false
+console.log(obj1 === obj2) // false
 ```
+
 希望你不会对上述的结果感觉到疑惑，当你感觉疑惑的时候请尽量去想象内存图。虽然表面上看`obj1`的内容和`obj2`的内容相同，但是引用类型存储的是一个地址值，两块内存空间的地址是不一样的。所以结果为false
 
+## 关于数据类型的几个小例子
+
+```javascript
+let str = 'vino'
+
+function fn(str) {
+    str = 'mamba'
+}
+
+fn(str)
+console.log(str) //vino
 
 
+let obj = {name: 'vino', age: 24}
+
+function fn2(obj) {
+    obj.name = 'mamba'
+    obj = {name: 'kobe', age: 24}
+}
+
+fn2(obj)
+console.log(obj) //{name: 'mamba', age: 24}
+```
 
 
 

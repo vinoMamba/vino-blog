@@ -4,7 +4,7 @@
 
 计划更新
 
-JavaScript系列-JavaScript的几种数据类型
+JavaScript系列-JavaScript的几种数据类型(已更新)
 
 JavaScript系列-JavaScript对象的底层数据结构
 
@@ -27,4 +27,6 @@ JavaScript系列-JavaScript对象的底层数据结构
 
 [8、JavaScript系列-call、apply、bind](./articles/JavaScript/JavaScript系列-Jcall、apply、bind这次真的弄懂了.md)
 
-[9、JavaScript系列-总结](./articles/JavaScript/JavaScript系列-JavaScript归纳成三个定理.md) 
+[9、JavaScript系列-总结](./articles/JavaScript/JavaScript系列-JavaScript归纳成三个定理.md)
+
+[10、JavaScript系列-JavaScript的数据类型](./articles/JavaScript/JavaScript系列-JavaScript的数据类型.md) 
