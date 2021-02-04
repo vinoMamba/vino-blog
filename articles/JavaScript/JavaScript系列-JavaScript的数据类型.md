@@ -40,7 +40,7 @@ console.log(string) //"vino24"
 因此我们将`string = 'vino'`存储在内存中如下图所示。当我们对`string`进行操作时，会将得到的结果存储在栈(Stack)内存中，然后将变量
 `string`指向这个内存
 
-![stack](./img/Stack.png)
+![stack](./img/stack.png)
 
 正是由于栈空间大小是固定的，所以注定存储在栈里面的变量也是不可变的
 
