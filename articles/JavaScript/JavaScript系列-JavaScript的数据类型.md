@@ -42,6 +42,7 @@ console.log(string) //"vino24"
 
 ![stack](./img/stack.png)
 
+
 正是由于栈空间大小是固定的，所以注定存储在栈里面的变量也是不可变的
 
 #### 2. 引用类型是存储在堆(Heap)内存中的
