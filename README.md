@@ -4,28 +4,32 @@
 
 计划更新
 
-JavaScript系列-JavaScript的变量声明
+JavaScript 系列-JavaScript 的变量声明(已更新)
+
+JavaScript 系列-JavaScript 的 Symbol 类型
 
 ## 目录
 
-#### JavaScript系列
+#### JavaScript 系列
 
-[1、JavaScript系列-JavaScript语法](./articles/JavaScript/JavaScript系列-JavaScript语法.md)
+[1、JavaScript 系列-JavaScript 语法](./articles/JavaScript/JavaScript系列-JavaScript语法.md)
 
-[2、JavaScript系列-JavaScript的对象](./articles/JavaScript/JavaScript系列-JavaScript的对象.md)
+[2、JavaScript 系列-JavaScript 的对象](./articles/JavaScript/JavaScript系列-JavaScript的对象.md)
 
-[3、JavaScript系列-JavaScript对象分类](./articles/JavaScript/JavaScript系列-JavaScript对象分类.md)
+[3、JavaScript 系列-JavaScript 对象分类](./articles/JavaScript/JavaScript系列-JavaScript对象分类.md)
 
-[4、JavaScript系列-JavaScript数组](./articles/JavaScript/JavaScript系列-JavaScript数组.md)
+[4、JavaScript 系列-JavaScript 数组](./articles/JavaScript/JavaScript系列-JavaScript数组.md)
 
-[5、JavaScript系列-JavaScript函数](./articles/JavaScript/JavaScript系列-JavaScript函数.md)
+[5、JavaScript 系列-JavaScript 函数](./articles/JavaScript/JavaScript系列-JavaScript函数.md)
 
-[6、JavaScript系列-JavaScript运算符](./articles/JavaScript/JavaScript系列-JavaScript运算符.md)
+[6、JavaScript 系列-JavaScript 运算符](./articles/JavaScript/JavaScript系列-JavaScript运算符.md)
 
-[7、JavaScript系列-this](./articles/JavaScript/JavaScript系列-this.md)
+[7、JavaScript 系列-this](./articles/JavaScript/JavaScript系列-this.md)
 
-[8、JavaScript系列-call、apply、bind](./articles/JavaScript/JavaScript系列-Jcall、apply、bind这次真的弄懂了.md)
+[8、JavaScript 系列-call、apply、bind](./articles/JavaScript/JavaScript系列-Jcall、apply、bind这次真的弄懂了.md)
 
-[9、JavaScript系列-总结](./articles/JavaScript/JavaScript系列-JavaScript归纳成三个定理.md)
+[9、JavaScript 系列-总结](./articles/JavaScript/JavaScript系列-JavaScript归纳成三个定理.md)
 
-[10、JavaScript系列-JavaScript的数据类型](./articles/JavaScript/JavaScript系列-JavaScript的数据类型.md) 
+[10、JavaScript 系列-JavaScript 的数据类型](./articles/JavaScript/JavaScript系列-JavaScript的数据类型.md)
+
+[11、JavaScript 系列-JavaScript 的变量声明](./articles/JavaScript/JavaScript系列-JavaScript的变量声明.md)
