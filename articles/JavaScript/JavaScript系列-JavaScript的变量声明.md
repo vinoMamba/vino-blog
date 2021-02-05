@@ -84,6 +84,10 @@ console.log(obj); //{ name: "mamba", age: 24 }
 
 不要疑惑为啥可以修改`obj.name` ，引用类型保存的是地址值
 
+## 总结
+
+**优先使用`const`,其次`let`,永远也不要用`var`声明**。
+
 ## 四、理解 JS 变量的「创建 create、初始化 initialize 和赋值 assign」
 
 > 以下内容，都是[参考知乎方方的文章](https://zhuanlan.zhihu.com/p/28140450)的
