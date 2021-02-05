@@ -4,9 +4,7 @@
 
 计划更新
 
-JavaScript 系列-JavaScript 的变量声明(已更新)
-
-JavaScript 系列-JavaScript 的 Symbol 类型
+.....
 
 ## 目录
 
@@ -33,3 +31,7 @@ JavaScript 系列-JavaScript 的 Symbol 类型
 [10、JavaScript 系列-JavaScript 的数据类型](./articles/JavaScript/JavaScript系列-JavaScript的数据类型.md)
 
 [11、JavaScript 系列-JavaScript 的变量声明](./articles/JavaScript/JavaScript系列-JavaScript的变量声明.md)
+
+#### ES6 系列
+
+[1、ES6 系列-ES6 新增的数据类型 Symbol](./articles/ES6/ES6系列-ES6新增的数据类型Symbol.md)
