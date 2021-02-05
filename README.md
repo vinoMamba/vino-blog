@@ -4,13 +4,12 @@
 
 计划更新
 
-JavaScript系列-JavaScript的几种数据类型(已更新)
-
-JavaScript系列-JavaScript对象的底层数据结构
+JavaScript系列-JavaScript的变量声明
 
 ## 目录
 
 #### JavaScript系列
+
 [1、JavaScript系列-JavaScript语法](./articles/JavaScript/JavaScript系列-JavaScript语法.md)
 
 [2、JavaScript系列-JavaScript的对象](./articles/JavaScript/JavaScript系列-JavaScript的对象.md)
