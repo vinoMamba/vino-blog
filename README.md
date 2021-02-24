@@ -40,6 +40,8 @@
 
 [1. 手写 instanceof](./articles/手写系列/手写instanceof.md)
 
+[1. 手写EventHub](./articles/手写系列/手写eventHub.md)
+
 #### 制作的小 demo
 
 [1、基于 nodejs 实现的命令行 TODO 程序 ](./articles/demo/基于nodejs实现的命令行TODO程序.md)
