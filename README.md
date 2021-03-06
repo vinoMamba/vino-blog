@@ -45,3 +45,10 @@
 #### 制作的小 demo
 
 [1、基于 nodejs 实现的命令行 TODO 程序 ](./articles/demo/基于nodejs实现的命令行TODO程序.md)
+
+
+
+#### 其他小知识
+
+
+[1、对象是穷人的闭包，闭包是穷人的对象](./articles/demo/闭包是穷人的对象，对象是穷人的闭包.md)
