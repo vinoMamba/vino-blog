@@ -7,6 +7,7 @@
 
 一般来讲，eventhub的API包括下面三个
 
-* EventHub#on
-* EventHub#off
-* EventHub#emit
+* EventHub#on 订阅事件
+* EventHub#off 取消事件 
+* EventHub#emit 发布事件
+
