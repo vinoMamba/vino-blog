@@ -40,7 +40,7 @@
 
 [1. 手写 instanceof](./articles/手写系列/手写instanceof.md)
 
-[1. 手写EventHub](./articles/手写系列/手写eventHub.md)
+[1. 手写EventHub](./articles/手写系列/手写EventHub.md)
 
 #### 制作的小 demo
 
