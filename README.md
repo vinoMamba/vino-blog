@@ -40,15 +40,14 @@
 
 [1. 手写 instanceof](./articles/手写系列/手写instanceof.md)
 
-[1. 手写EventHub](./articles/手写系列/手写EventHub.md)
+[2. 手写EventHub](./articles/手写系列/手写EventHub.md)
+
+[3. 手写深拷贝](./articles/手写系列/手写深拷贝.md)
 
 #### 制作的小 demo
 
 [1、基于 nodejs 实现的命令行 TODO 程序 ](./articles/demo/基于nodejs实现的命令行TODO程序.md)
 
-
-
 #### 其他小知识
-
 
 [1、对象是穷人的闭包，闭包是穷人的对象](./articles/demo/闭包是穷人的对象，对象是穷人的闭包.md)
