@@ -2,8 +2,17 @@
 
 ## 近期计划
 
-计划更新
+1. webpack 源码系列
 
+2. async,await,Promise 
+
+3. 手写Promise
+
+4. 手写bind
+
+5. Event loop
+
+6. web性能优化系列
 .....
 
 ## 目录
