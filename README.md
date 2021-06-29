@@ -4,7 +4,7 @@
 
 1. webpack 源码系列
 
-2. async,await,Promise 
+2. async,await,Promise
 
 3. 手写Promise
 
@@ -12,8 +12,7 @@
 
 5. Event loop
 
-6. web性能优化系列
-.....
+6. web性能优化系列 .....
 
 ## 目录
 
@@ -60,3 +59,7 @@
 #### 其他小知识
 
 [1、对象是穷人的闭包，闭包是穷人的对象](./articles/demo/闭包是穷人的对象，对象是穷人的闭包.md)
+
+#### ruby
+
+[1、ruby基础知识](./articles/ruby/ruby基础.md)
