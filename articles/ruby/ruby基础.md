@@ -175,22 +175,22 @@ end
 2. 每个对象上面都有一个`object_id`,表示其唯一性
 
 ```ruby
-    a = 'string'
-    
-    a.class     # String
-    
-    a.object_id   # 208
+a = 'string'
+
+a.class     # String
+
+a.object_id   # 208
 ```
 
 #### 1. 数组
 
 ```ruby
-    list = [1,2,3,4,5]
-    
-    list.class      # Array
-    
-    list.methods    # 会打印所有的方法,这些方法前面都有一个冒号
-    
+list = [1,2,3,4,5]
+
+list.class      # Array
+
+list.methods    # 会打印所有的方法,这些方法前面都有一个冒号
+
 ```
 
 #### 2. 散列
@@ -198,15 +198,15 @@ end
 散列是由`Hash`构造出来的
 
 ```ruby
-    person = { name: 'vino', age: 12 }
-    
-    person.keys     # [:name, :age]
+person = { name: 'vino', age: 12 }
+
+person.keys     # [:name, :age]
 ```
 
 上面的可不是JS里面的对象，里面的`name`,`age`也并非是字符串，而是`symbol`,他等价于:
 
 ```ruby
-    person = { :name => 'vino', :age => 12 }
+person = { :name => 'vino', :age => 12 }
 ```
 
 `name`可以看做是下面这种形式的语法糖
@@ -214,27 +214,27 @@ end
 如果希望使用字符串作为key,应该写成
 
 ```ruby
-    person = { 'name' => 'vino', 'age' => 12}
+person = { 'name' => 'vino', 'age' => 12}
     
-    person.keys     # ['name','age']
+person.keys     # ['name','age']
 ```
 
 **Tips: ruby中`.`后面接的是函数，函数甚至可以不用写`()`来执行,这一点区别于JS**
 
 ```ruby 
-    person.keys     # 这里的.keys不是属性，而是函数,相当于js里面的   person.keys()
+person.keys     # 这里的.keys不是属性，而是函数,相当于js里面的   person.keys()
 ```
 
 遍历散列使用`.each`方法
 
 ```ruby
-    person.each do |key,value|
-        p "key:#{key},value:#{value}"
-    end
-    
-    #  key: name,value: vino
-    #  key: age, value: 12
-    #  symbol 会自动转换成字符串
+person.each do |key,value|
+    p "key:#{key},value:#{value}"
+end
+
+#  key: name,value: vino
+#  key: age, value: 12
+#  symbol 会自动转换成字符串
 ```
 
 #### 与JS的区别
