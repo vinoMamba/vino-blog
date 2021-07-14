@@ -113,10 +113,23 @@ docker exec -it container-id /bin/bash
 ```shell
 docker cp container-id:path : target-machine-path
 ```
-
-## Docker 镜像
-
 ## Docker 数据卷
+
+作用：**数据可持久化**
+
+```shell
+docker run -v  主机目录:容器内部目录
+```
+* 同步的过程是双向绑定的
+* 停止容器，在宿主机上修改内容再重启，数据依然同步
+
+#### MySql数据库数据持久化
+
+```shell
+# 数据挂载
+docker run -d -p 3306:3306 -v /home/mysql:/etc/mysql/conf.d -v /home/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql01 mysql
+```
+
 
 ## DockerFile
 
