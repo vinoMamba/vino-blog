@@ -62,8 +62,6 @@ function foo(a) {
 
 ### JavaScript的解决方案
 
-#### 1. 立即执行函数
-
 ```javascript
 var a = 2;
 
@@ -75,7 +73,127 @@ var a = 2;
 console.log(a)
 ```
 
-#### 2. 匿名函数
+> 函数声明和函数表达式
+>
+>   1. 区分函数表达式和函数声明最简单的方式是看`function`关键字是否是声明中的第一个词，如果是则是函数声明，否则函数表达式
+>   2. 函数声明和函数表达式之间最重要的区别是**他们的名称标识符将会绑定在何处**
+>
+>比较前面两片代码，第一个片段中`foo`被绑定在所在的作用域中，可以直接通过`foo()`来调用；第二个片段`foo`
+> 被绑定在函数表达式自身的函数中。这意味着`foo`只能在`(function foo(){..})`中的`..`代表的位置访问。
+>
+
+#### 1. 匿名和具名
+
+```javascript
+setTimeout(function () {
+    console.log('我等一会执行')
+}, 0)
+```
+
+> 这叫做**匿名函数表达式**。而函数声明是不可以省略函数名，在JavaScript中是非法的
+>
+> 这种方式有几个缺点：
+>
+>   1. 匿名函数在栈追踪的时候不会显示具体的函数名，导致调试很困难
+>   2. 在递归中，函数引用自身将无法实现。另一个例子就是事件触发监听器的时候需要解绑自身
+>   3. 匿名函数的可读性相对于具名函数较差
+>
+> 解决这些问题：给函数表达式命名是最佳实践
+
+```javascript
+setTimeout(function waitAMoment() {
+    console.log('我等一会执行')
+}, 0)
+```
+
+#### 2. 立即执行函数表达式
+
+> 由于函数被包裹在一个`()`内，因此成为了一个表达式，在通过尾部增加另外一个`()`，就可以立即执行这个函数
+> 专业术语叫做**IIFE**(Immediately Invoked Function Expression)
+>
+> IIFE最常见的用法是使用匿名函数表达式。当然具名函数表达式也具备同样的优势
+
+##### IIFE进阶用法
+
+```javascript
+var a = 2;
+(function IIEF(a) {
+    console.log(a)
+})(a)
+```
+
+## 4. 块作用域
+
+```javascript
+for (var i = 0; i < 10; i++) {
+    console.log(i)
+}
+```
+
+> 上述代码中，`i`变量是指在循环内部使用的变量。但事实是`i`已经污染到整个函数作用域。表面上看JavaScript并没有块级作用域的相关功能
+
+### try...catch
+
+```javascript
+try {
+
+} catch (error) {
+    console.log(error);
+}
+console.log(error) //ReferenceError
+```
+
+### let
+
+> let 关键字可以将变量绑定到所在的任意作用域中
+
+```javascript
+for (let i = 0; i < 10; i++) {
+    console.log(i)
+}
+console.log(i) //ReferenceError
+```
+
+> `let`不仅将`i`绑定到了for循环里面，而且是将其绑定到了循环的每一个迭代中，确保使用上一个循环迭代结束时的值重新进行赋值
+
+```javascript
+let j
+for (j = 0; j < 10; j++) {
+    let i = j
+    console.log(i)
+}
+```
+
+### const
+> 用于创建块作用域变量，但是其值是固定的常量
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
