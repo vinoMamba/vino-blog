@@ -8,7 +8,7 @@
 
 3. 手写Promise
 
-4. 手写bind
+4. 手写bind(已更新)
 
 5. Event loop
 
@@ -46,11 +46,11 @@
 
 #### 手写系列
 
-[1. 手写 instanceof](./articles/手写系列/手写instanceof.md)
+[1. 手写EventHub](./articles/手写系列/手写EventHub.md)
 
-[2. 手写EventHub](./articles/手写系列/手写EventHub.md)
+[2. 手写深拷贝](./articles/手写系列/手写深拷贝.md)
 
-[3. 手写深拷贝](./articles/手写系列/手写深拷贝.md)
+[3. 手写bind](./articles/手写系列/手写bind.md)
 
 #### 制作的小 demo
 
