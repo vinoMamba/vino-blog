@@ -144,3 +144,29 @@ gzip_min_length: 1000
 > 把内容分发到世界各地的网络，物理缩短距离，优化性能
 
 DNS 负载均衡,DNS 可以返回不同的 IP，根据你所在的位置返回最近的 IP
+
+## 缓存和内容协商
+
+### 1. DNS 缓存
+
+- 操作系统缓存: host 文件 添加缓存地址
+
+- 浏览器缓存
+
+### 2. HTTP 缓存
+
+```
+Cache-Control:public, max-age=3600, must-revalidate
+```
+
+- public: 公开的内容
+
+- max-age: 缓存时间
+
+- must-revalidate: 必须重新校验，校验也叫作**内容协商**(若缓存)
+
+#### 内容协商
+
+> 协商缓存过期后是否能重用
+
+
