@@ -16,6 +16,12 @@
 
 ## 目录
 
+#### web 性能优化
+
+[1、web性能优化-浏览器渲染原理](./articles/web性能优化/web性能优化-浏览器渲染原理.md)
+[2、web性能优化](./articles/web性能优化/web性能优化.md)
+[2、web性能优化-技巧篇](./articles/web性能优化/web性能优化-技巧篇.md)
+
 #### JavaScript 系列
 
 [1、JavaScript 系列-JavaScript 语法](./articles/JavaScript/JavaScript系列-JavaScript语法.md)
@@ -51,6 +57,14 @@
 [2. 手写深拷贝](./articles/手写系列/手写深拷贝.md)
 
 [3. 手写bind](./articles/手写系列/手写bind.md)
+
+#### 设计模式
+
+[1. 工厂模式](./articles/设计模式/工厂模式.md)
+
+#### docker
+
+[1. docker 基础理论流水账](./articles/docker/docker-基础.md)
 
 #### 制作的小 demo
 
