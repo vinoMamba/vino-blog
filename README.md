@@ -4,23 +4,17 @@
 
 1. webpack 源码系列
 
-2. async,await,Promise
-
-3. 手写Promise
-
-4. 手写bind(已更新)
-
-5. Event loop
-
-6. web性能优化系列 .....
+2. web 性能优化系列（已更新）
 
 ## 目录
 
 #### web 性能优化
 
-[1、web性能优化-浏览器渲染原理](./articles/web性能优化/web性能优化-浏览器渲染原理.md)
-[2、web性能优化](./articles/web性能优化/web性能优化.md)
-[2、web性能优化-技巧篇](./articles/web性能优化/web性能优化-技巧篇.md)
+[1、web 性能优化-浏览器渲染原理](./articles/web性能优化/web性能优化-浏览器渲染原理.md)
+
+[2、web 性能优化](./articles/web性能优化/web性能优化.md)
+
+[3、web 性能优化-技巧篇](./articles/web性能优化/web性能优化-技巧篇.md)
 
 #### JavaScript 系列
 
@@ -52,11 +46,11 @@
 
 #### 手写系列
 
-[1. 手写EventHub](./articles/手写系列/手写EventHub.md)
+[1. 手写 EventHub](./articles/手写系列/手写EventHub.md)
 
 [2. 手写深拷贝](./articles/手写系列/手写深拷贝.md)
 
-[3. 手写bind](./articles/手写系列/手写bind.md)
+[3. 手写 bind](./articles/手写系列/手写bind.md)
 
 #### 设计模式
 
@@ -76,4 +70,4 @@
 
 #### ruby
 
-[1、ruby基础知识](./articles/ruby/ruby基础.md)
+[1、ruby 基础知识](./articles/ruby/ruby基础.md)
